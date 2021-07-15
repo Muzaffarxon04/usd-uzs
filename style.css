@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+#form{
+    width: 500px;
+    margin: 100px auto;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+input{
+    margin: 20px auto;
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+}
+input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+li{
+    margin: -18px 0px 0px 52px;
+    list-style-type: none;
+    height: 30px;
+    width: 312px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+select{
+    padding: 5px;
+    width: 315px;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    outline: none;
+}
+button{
+    padding: 5px;
+    width: 200px;
+    margin: 20px auto;
+    font-weight: bold;
+    background-color: red;
+}
